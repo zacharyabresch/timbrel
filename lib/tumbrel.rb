@@ -1,5 +1,6 @@
 require "tumbrel/version"
+require 'tumbrel/railtie' if defined?(Rails)
 
 module Tumbrel
-  # Your code goes here...
+  
 end
